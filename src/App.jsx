@@ -73,7 +73,7 @@ Base everything on what you actually find from searching the website. Be specifi
 
     try {
       setStage("🧠 Analyzing with AI...");
-      const response = await fetch("https://api.anthropic.com/v1/messages", {
+      const response = await fetch("https://cro-api-proxy.dhargraves1987.workers.dev", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
